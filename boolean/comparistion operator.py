@@ -21,3 +21,13 @@ for index,num in enumerate(nums):
         break
     else:
         seen[num]=index
+
+
+# move zeroes to last
+nums=[1,2,0,2,0,1,0]
+pos=0
+for num in range(len(nums)):
+    if nums[num]!=0:
+        nums[pos],nums[num]=nums[num],nums[pos]
+        pos+=1
+print(nums)
