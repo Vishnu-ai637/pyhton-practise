@@ -9,7 +9,7 @@ print(a>b)
 print(a==b)
 
 
-
+print('-----------------------------------two sum of two numbers---------------------------')
 #  practise coding
 nums=[2,5,7,5,8]
 target=9
@@ -22,6 +22,7 @@ for index,num in enumerate(nums):
     else:
         seen[num]=index
 
+print('-----------------------------------move zeroes to end ---------------------------')
 
 # move zeroes to last
 nums=[1,2,0,2,0,1,0]
